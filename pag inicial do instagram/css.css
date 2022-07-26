@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.instagram-phone img{
+    height: 42rem;
+    width: auto;
+
+}
+
+.instagram-continue{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 37rem;
+    width: 50%;
+    flex-direction: column;
+
+}
+
+.instalogin{
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+.instalogout{
+    color: #0095f6;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.not-acc{
+ color: rgb(160,160,160);
+ margin-bottom: 1rem;
+}
+
+.link-blue{
+    color: #0095f6
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1){ /*isso é o primeiro retangulo com a ft de perfil, logo do insta e tals. */
+    min-height: 22rem;
+    margin-bottom: 0;
+}
+
+.group :nth-child(2){
+    min-height: 2rem;
+    margin-top: 0;
+}
+
+.profilephoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profilephoto img{
+    height: 8rem;
+    width: 8rem;
+}
+
+.instagram-logo{
+    height: 4rem;
+    width: 13rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+
+
+
+.btnapple{
+    height: 40px;
+}
+
+.btnplaystore{
+    height: 40px;
+}
+
+@media (max-width: 1024px){
+    .instagram-wrapper{
+        width:90%;
+    }
+}
+@media (max-width: 650px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+.instagram-phone{
+    display: none;
+}
+.instagram-continue{
+    width:100%;
+}
+}
+
+
